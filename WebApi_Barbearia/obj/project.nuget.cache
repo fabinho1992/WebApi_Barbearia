@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hu473snWjKJwgQeLJg+dJlN21P40mpYUUB4COJzaVt+996eKtvbuOVGVvyXZgxQjYIfGcH4fRwei7bIyA1z8vg==",
+  "dgSpecHash": "A4STDKcb4JfqQakKVycmT2ssDL3NPI9YWUNC9YmzZ4yYMSlzPatucLkqdkcUSE5O6nrjgj1PFk4cGMezJrHwjw==",
   "success": true,
-  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
+  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adm\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\adm\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

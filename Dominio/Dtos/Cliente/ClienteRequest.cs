@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Dtos
+namespace Dominio.Dtos.Cliente
 {
     public class ClienteRequest
     {

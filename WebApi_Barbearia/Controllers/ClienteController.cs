@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Dominio.Dtos;
+using Dominio.Dtos.Cliente;
 using Entidades.Models;
 using Infraestrutura.Configuration;
 using Microsoft.AspNetCore.Http;
@@ -24,7 +24,7 @@ public class ClienteController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> Get()
     {
-        var lista = _mapper.Map<List<ClienteResponse>>(_context.Clientes.ToList());
+        var lista = await _context.Clientes.ToListAsync();
         return Ok(lista);
     }
 
@@ -45,6 +45,7 @@ public class ClienteController : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(int id)
     {
+
         var usuario = _mapper.Map<ClienteResponse>(_context.Clientes.Find(id));
         return Ok(usuario);
     }
@@ -52,6 +53,7 @@ public class ClienteController : ControllerBase
     [HttpPut]
     public async Task<IActionResult> Update(int id, ClienteRequest clienteRequest)
     {
+
         if (ModelState.IsValid)
         {
             var usuario = _context.Clientes.FirstOrDefault(c => c.Id == id);
@@ -61,6 +63,15 @@ public class ClienteController : ControllerBase
         }
         return BadRequest();
         
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var usuario = await _context.Clientes.FindAsync(id);
+        _context.Clientes.Remove(usuario);
+        await _context.SaveChangesAsync();
+        return Ok("Usuario removido!");
     }
 
 }

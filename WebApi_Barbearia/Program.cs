@@ -1,6 +1,8 @@
 
 using AutoMapper;
-using Dominio.Dtos;
+using Dominio.Dtos.Agendamento;
+using Dominio.Dtos.Cliente;
+using Dominio.Dtos.Servico;
 using Entidades.Models;
 using Infraestrutura.Configuration;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +30,13 @@ namespace WebApi_Barbearia
             {
                 cfg.CreateMap<ClienteRequest, Cliente>();
                 cfg.CreateMap<Cliente, ClienteResponse>().ReverseMap();
-                
+                cfg.CreateMap<ServicoRequest, Servico>(); 
+                cfg.CreateMap<ServicoResponse, Servico>().ReverseMap();
+                cfg.CreateMap<AgendamentoRequest, Agendamento>();
+                cfg.CreateMap<Agendamento, AgendamentoResponse>().ForMember(x => x.Cliente, opt => opt.MapFrom(x => x.Cliente.Nome))
+                                                                 .ForMember(x => x.Servicos , opt => opt.MapFrom(x => x.Servicos));
+
+
             });
 
             IMapper mapper = config.CreateMapper();

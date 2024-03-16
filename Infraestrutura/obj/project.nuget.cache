@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "takgVTE107/QDg9V+K+0ixSyLGO4JmDWqGySCayahu+EopKSFXhCAbS9BLB3qMd28kuAJsBTH7q8ODrcsGb/4A==",
+  "dgSpecHash": "Az4xfRhxDKNyTAqTRyRiN3waxpBA4s20sx9wx2YC1pZyNuD2nM4s8ECq3ugPBVCnHnLrR4PHO5Kl0BPl8Wo8ng==",
   "success": true,
-  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj",
+  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adm\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\adm\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

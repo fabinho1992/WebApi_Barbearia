@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zfGrVErNoGtKlPnwnoiAN1a+buryCmNEKHTQlcRjk9h6GLMHAAHDRDwSqeIBcwLsI9vRvksHCRknJQzSkzjdew==",
+  "dgSpecHash": "BGdXo/XzfbWtz//nQIEDZ1oHN1xTnfIX22jn1wPtigB44fA797btj4LdLiplIZDydguLZRYcE5K1iwmXmAlqYw==",
   "success": true,
-  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
