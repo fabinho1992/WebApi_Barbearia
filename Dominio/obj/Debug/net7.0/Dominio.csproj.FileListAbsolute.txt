@@ -22,3 +22,15 @@ C:\AulasAluraBackEnd\Cursos_Udemy\WebApi_Barbearia\PastaProjeto\Dominio\obj\Debu
 C:\AulasAluraBackEnd\Cursos_Udemy\WebApi_Barbearia\PastaProjeto\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 C:\AulasAluraBackEnd\Cursos_Udemy\WebApi_Barbearia\PastaProjeto\Dominio\obj\Debug\net7.0\Dominio.pdb
 C:\AulasAluraBackEnd\Cursos_Udemy\WebApi_Barbearia\PastaProjeto\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.sourcelink.json
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\ref\Dominio.dll

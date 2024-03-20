@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\obj\\",
+      "outputPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {}
+    "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {}
   },
   "projects": {
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj": {
+    "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\obj\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj": {
+    "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\obj\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj": {
+    "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj",
         "projectName": "Infraestrutura",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj",
+        "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\obj\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Infraestrutura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -150,8 +150,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj"
+              "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -207,14 +207,14 @@
         }
       }
     },
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {
+    "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
         "projectName": "WebApi_Barbearia",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
+        "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\obj\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,11 +235,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj"
+              "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj"
               },
-              "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj": {
-                "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj"
+              "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\CursoUdemyBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj"
               }
             }
           }
