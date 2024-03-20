@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}|Identity\\Identity.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\cursosudemy\\apibarbearia\\webapi_barbearia\\identity\\dtos\\usuariotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}|Identity\\Identity.csproj|solutionrelative:identity\\dtos\\usuariotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}|Identity\\Identity.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\cursosudemy\\apibarbearia\\webapi_barbearia\\identity\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}|Identity\\Identity.csproj|solutionrelative:identity\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93474F2A-C9C2-4A4E-A466-8165751D9802}|WebApi_Barbearia\\WebApi_Barbearia.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\cursosudemy\\apibarbearia\\webapi_barbearia\\webapi_barbearia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93474F2A-C9C2-4A4E-A466-8165751D9802}|WebApi_Barbearia\\WebApi_Barbearia.csproj|solutionrelative:webapi_barbearia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF381568-ECE6-4612-A051-8DCC29BB0411}|Infraestrutura\\Infraestrutura.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\cursosudemy\\apibarbearia\\webapi_barbearia\\infraestrutura\\configuration\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF381568-ECE6-4612-A051-8DCC29BB0411}|Infraestrutura\\Infraestrutura.csproj|solutionrelative:infraestrutura\\configuration\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93474F2A-C9C2-4A4E-A466-8165751D9802}|WebApi_Barbearia\\WebApi_Barbearia.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\cursosudemy\\apibarbearia\\webapi_barbearia\\webapi_barbearia\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93474F2A-C9C2-4A4E-A466-8165751D9802}|WebApi_Barbearia\\WebApi_Barbearia.csproj|solutionrelative:webapi_barbearia\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioToken.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Dtos\\UsuarioToken.cs",
+              "RelativeDocumentMoniker": "Identity\\Dtos\\UsuarioToken.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Dtos\\UsuarioToken.cs",
+              "RelativeToolTip": "Identity\\Dtos\\UsuarioToken.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T19:20:55.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Dtos\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "Identity\\Dtos\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Dtos\\UsuarioDto.cs",
+              "RelativeToolTip": "Identity\\Dtos\\UsuarioDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T19:09:05.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi_Barbearia\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\Program.cs",
+              "RelativeToolTip": "WebApi_Barbearia\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAB0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:21:15.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\Controllers\\ServicoController.cs",
+              "RelativeDocumentMoniker": "WebApi_Barbearia\\Controllers\\ServicoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\Controllers\\ServicoController.cs",
+              "RelativeToolTip": "WebApi_Barbearia\\Controllers\\ServicoController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:21:15.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContextBase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Configuration\\ContextBase.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\Configuration\\ContextBase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Configuration\\ContextBase.cs",
+              "RelativeToolTip": "Infraestrutura\\Configuration\\ContextBase.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T11:21:15.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

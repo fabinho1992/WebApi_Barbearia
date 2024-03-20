@@ -61,5 +61,34 @@ public class AgendamentoController : ControllerBase
         return BadRequest();
     }
 
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id,AgendamentoRequest agendamentoRequest)
+    {
+        if (ModelState.IsValid)
+        {
+            var agendamento = _context.Agendamentos.Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
+            var novoAgendamento = _mapper.Map(agendamentoRequest, agendamento);
+            var servico = _context.Servicos.FirstOrDefault(x => x.Id == agendamentoRequest.ServicoId);
+            agendamento.Servicos = new List<Servico> { servico };
+            await _context.SaveChangesAsync();
+            return Ok("Agendamento atualizado");
+        }
+
+        return BadRequest();
+        
+            
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var agendamento = _context.Agendamentos.Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
+        if (agendamento == null) {  return BadRequest(); }
+        _context.Agendamentos.Remove(agendamento);
+        await _context.SaveChangesAsync();
+        return Ok("Deletado com sucesso!");
+    } 
+
+
 }
 
