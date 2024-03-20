@@ -4,7 +4,9 @@ using Dominio.Dtos.Agendamento;
 using Dominio.Dtos.Cliente;
 using Dominio.Dtos.Servico;
 using Entidades.Models;
+using Identity;
 using Infraestrutura.Configuration;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace WebApi_Barbearia
@@ -22,9 +24,14 @@ namespace WebApi_Barbearia
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            //Conexão Banco 
-            var StringConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+            //Conexï¿½o Banco 
+            var StringConnection = builder.Configuration.GetConnectionString("ConnectionNotbook");
             builder.Services.AddDbContext<ContextBase>(op => op.UseSqlServer(StringConnection));
+            builder.Services.AddDbContext<ContextBaseIdentity>(op => op.UseSqlServer(StringConnection));
+
+            //ConexÃ£o Identity
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ContextBaseIdentity>().AddDefaultTokenProviders();
 
             var config = new AutoMapper.MapperConfiguration(cfg =>
             {
@@ -32,7 +39,7 @@ namespace WebApi_Barbearia
                 cfg.CreateMap<Cliente, ClienteResponse>().ReverseMap();
                 cfg.CreateMap<ServicoRequest, Servico>(); 
                 cfg.CreateMap<ServicoResponse, Servico>().ReverseMap();
-                cfg.CreateMap<AgendamentoRequest, Agendamento>();
+                cfg.CreateMap<AgendamentoRequest, Agendamento>().ForMember(x => x.Servicos, opt => opt.MapFrom(x => x.ServicoId));
                 cfg.CreateMap<Agendamento, AgendamentoResponse>().ForMember(x => x.Cliente, opt => opt.MapFrom(x => x.Cliente.Nome))
                                                                  .ForMember(x => x.Servicos , opt => opt.MapFrom(x => x.Servicos));
 
@@ -52,6 +59,8 @@ namespace WebApi_Barbearia
             }
 
             app.UseHttpsRedirection();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

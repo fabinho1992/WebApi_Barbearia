@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Enti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_Barbearia", "WebApi_Barbearia\WebApi_Barbearia.csproj", "{93474F2A-C9C2-4A4E-A466-8165751D9802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{2ECA67C1-1061-4892-BAA6-83AE4908D4CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{2ECA67C1-1061-4892-BAA6-83AE4908D4CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2ECA67C1-1061-4892-BAA6-83AE4908D4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ECA67C1-1061-4892-BAA6-83AE4908D4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ECA67C1-1061-4892-BAA6-83AE4908D4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337A04C0-71BD-4DEA-9A34-6E9907B58AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

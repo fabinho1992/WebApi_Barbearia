@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JIyM9VADXOSOWyYKjS7FnFTXJ+NJA6cclY6cg0r2UhZ1cinFzIr0gdtsN5GZZU/IOxVA6tS/eybYK6UWRIQ3ag==",
+  "dgSpecHash": "b2TN2U2nP0a2YyhBzX5Y5OGV6sSQG7te4wBsJdwAne9fQZm5M8fHPW6p3jsnalIvhCW8dw3ViP9Ap013an7nUQ==",
   "success": true,
-  "projectFilePath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

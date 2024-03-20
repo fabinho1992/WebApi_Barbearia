@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {}
   },
   "projects": {
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,6 +102,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -118,24 +128,114 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj",
-        "projectName": "Infraestrutura",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\obj\\",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Identity.csproj",
+        "projectName": "Identity",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Identity.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj",
+        "projectName": "Infraestrutura",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -150,8 +250,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -160,6 +260,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -203,24 +308,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
         "projectName": "WebApi_Barbearia",
-        "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\WebApi_Barbearia\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\WebApi_Barbearia.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\WebApi_Barbearia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -235,11 +340,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Dominio\\Dominio.csproj"
               },
-              "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj": {
-                "projectPath": "C:\\AulasAluraBackEnd\\Cursos_Udemy\\WebApi_Barbearia\\PastaProjeto\\Infraestrutura\\Infraestrutura.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Identity.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Identity\\Identity.csproj"
+              },
+              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\CursosUdemy\\ApiBarbearia\\WebApi_Barbearia\\Infraestrutura\\Infraestrutura.csproj"
               }
             }
           }
@@ -248,6 +356,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -261,6 +374,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -306,7 +423,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
