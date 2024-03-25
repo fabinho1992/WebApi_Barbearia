@@ -46,8 +46,8 @@ public class ClienteController : ControllerBase
     public async Task<IActionResult> GetById(int id)
     {
 
-        var usuario = _mapper.Map<ClienteResponse>(_context.Clientes.Find(id));
-        return Ok(usuario);
+        var usuario =  _mapper.Map<ClienteResponse>(_context.Clientes.Find(id));
+        return Ok( usuario);
     }
 
     [HttpPut]

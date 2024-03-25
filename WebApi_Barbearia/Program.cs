@@ -5,9 +5,13 @@ using Dominio.Dtos.Cliente;
 using Dominio.Dtos.Servico;
 using Entidades.Models;
 using Identity;
+using Identity.Services;
 using Infraestrutura.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace WebApi_Barbearia
 {
@@ -25,15 +29,35 @@ namespace WebApi_Barbearia
             builder.Services.AddSwaggerGen();
 
             //Conex�o Banco 
-            var StringConnection = builder.Configuration.GetConnectionString("ConnectionNotbook");
+            var StringConnection = builder.Configuration.GetConnectionString("ConnectionPc");
             builder.Services.AddDbContext<ContextBase>(op => op.UseSqlServer(StringConnection));
             builder.Services.AddDbContext<ContextBaseIdentity>(op => op.UseSqlServer(StringConnection));
+
 
             //Conexão Identity
             builder.Services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ContextBaseIdentity>().AddDefaultTokenProviders();
 
-            var config = new AutoMapper.MapperConfiguration(cfg =>
+            //Aqui passo para o .NeT, de qual CLASSE ele irá fazer a injeção de dependencia
+            builder.Services.AddScoped<UsuarioService>();
+
+
+            //TokenJwt
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+           .AddJwtBearer(option =>
+               option.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidateAudience = true,
+                   ValidateLifetime = true,
+                   ValidateIssuerSigningKey = true,
+
+                   ValidIssuer = builder.Configuration["Configuration: Issuer"],
+                   ValidAudience = builder.Configuration["Configuration: Audience"],
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt: KeyJwt"]))
+               });
+
+               var config = new AutoMapper.MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<ClienteRequest, Cliente>();
                 cfg.CreateMap<Cliente, ClienteResponse>().ReverseMap();
@@ -48,6 +72,7 @@ namespace WebApi_Barbearia
 
             IMapper mapper = config.CreateMapper();
             builder.Services.AddSingleton(mapper);
+
 
             var app = builder.Build();
 

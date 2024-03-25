@@ -13,3 +13,18 @@ C:\Users\Usuario\Desktop\Cursos de Programação\CursosUdemy\ApiBarbearia\WebApi
 C:\Users\Usuario\Desktop\Cursos de Programação\CursosUdemy\ApiBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\ref\Identity.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\CursosUdemy\ApiBarbearia\WebApi_Barbearia\Identity\bin\Debug\net7.0\Identity.runtimeconfig.json
 C:\Users\Usuario\Desktop\Cursos de Programação\CursosUdemy\ApiBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.genruntimeconfig.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\bin\Debug\net7.0\Identity.deps.json
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\bin\Debug\net7.0\Identity.runtimeconfig.json
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\bin\Debug\net7.0\Identity.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\bin\Debug\net7.0\Identity.pdb
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.csproj.AssemblyReference.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.AssemblyInfoInputs.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.AssemblyInfo.cs
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.csproj.CoreCompileInputs.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.sourcelink.json
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\refint\Identity.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.pdb
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\Identity.genruntimeconfig.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Identity\obj\Debug\net7.0\ref\Identity.dll
