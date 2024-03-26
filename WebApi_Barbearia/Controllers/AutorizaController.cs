@@ -1,9 +1,9 @@
 ﻿using Identity.Dtos;
 using Identity.Model;
-using Identity.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using WebApi_Barbearia.Services;
 
 namespace WebApi_Barbearia.Controllers
 {
@@ -33,7 +33,7 @@ namespace WebApi_Barbearia.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<IActionResult> LoginUsuario(UsuarioDto usuarioDto)
+        public async Task<ActionResult> LoginUsuario(UsuarioDto usuarioDto)
         {
             if (string.IsNullOrWhiteSpace(usuarioDto.Email) || string.IsNullOrWhiteSpace(usuarioDto.Password))
             {

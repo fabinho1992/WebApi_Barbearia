@@ -9,7 +9,7 @@ namespace Identity
     {
         public ContextBaseIdentity(DbContextOptions<ContextBaseIdentity> options) : base(options) { }
 
-        public DbSet<Usuario> Usuarios { get; set; }
+        
         
     }
 }

@@ -2,14 +2,17 @@
 using Dominio.Dtos.Agendamento;
 using Entidades.Models;
 using Infraestrutura.Configuration;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace WebApi_Barbearia.Controllers;
 
+
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class AgendamentoController : ControllerBase
 {
     private readonly ContextBase _context;

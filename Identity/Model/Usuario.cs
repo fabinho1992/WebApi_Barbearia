@@ -9,5 +9,6 @@ namespace Identity.Model
 {
     public class Usuario : IdentityUser
     {
+        public Usuario() : base() { }
     }
 }

@@ -5,13 +5,16 @@ using Dominio.Dtos.Cliente;
 using Dominio.Dtos.Servico;
 using Entidades.Models;
 using Identity;
-using Identity.Services;
+using Identity.Model;
 using Infraestrutura.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
+using WebApi_Barbearia.Controllers;
+using WebApi_Barbearia.Services;
 
 namespace WebApi_Barbearia
 {
@@ -26,7 +29,34 @@ namespace WebApi_Barbearia
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            //Configurando Swagger
+            builder.Services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Barbearia", Version = "v1" });
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+                {
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Description = "JWT Authorization header using the Bearer scheme."
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                          new OpenApiSecurityScheme
+                          {
+                              Reference = new OpenApiReference
+                              {
+                                  Type = ReferenceType.SecurityScheme,
+                                  Id = "Bearer"
+                              }
+                          },
+                         new string[] {}
+                    }
+                });
+            });
 
             //Conex�o Banco 
             var StringConnection = builder.Configuration.GetConnectionString("ConnectionPc");
@@ -35,12 +65,12 @@ namespace WebApi_Barbearia
 
 
             //Conexão Identity
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+            builder.Services.AddIdentity<Usuario, IdentityRole>()
                 .AddEntityFrameworkStores<ContextBaseIdentity>().AddDefaultTokenProviders();
 
-            //Aqui passo para o .NeT, de qual CLASSE ele irá fazer a injeção de dependencia
+            builder.Services.AddScoped<TokenService>();
             builder.Services.AddScoped<UsuarioService>();
-
+            
 
             //TokenJwt
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
