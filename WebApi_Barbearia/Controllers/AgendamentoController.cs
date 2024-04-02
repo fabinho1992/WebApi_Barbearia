@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Dominio.Dtos.Agendamento;
+using Dominio.Interfaces.IService;
 using Entidades.Models;
 using Infraestrutura.Configuration;
 using Microsoft.AspNetCore.Authorization;
@@ -15,25 +16,22 @@ namespace WebApi_Barbearia.Controllers;
 [Authorize]
 public class AgendamentoController : ControllerBase
 {
-    private readonly ContextBase _context;
+    private readonly IServiceAgendamento _serviceAgendamento;
     private readonly IMapper _mapper;
 
-    public AgendamentoController(ContextBase context, IMapper mapper)
+    public AgendamentoController(IMapper mapper, IServiceAgendamento serviceAgendamento)
     {
-        _context = context;
         _mapper = mapper;
+        _serviceAgendamento = serviceAgendamento;
     }
 
 
     [HttpGet]
     public async Task<IActionResult> Get()
     {
-        var lista = await _context.Agendamentos.Include(c => c.Cliente).ToListAsync();
-        if (lista.Count() <= 0)
-        {
-            return BadRequest("Nada encontrado!");
-        }
-        return Ok(_mapper.Map<List<AgendamentoResponse>>(lista));
+        var lista = await _serviceAgendamento.GetAll();
+        var listaMap = _mapper.Map<List<Agendamento>>(lista);
+        return Ok(listaMap);
 
     }
 
@@ -41,8 +39,10 @@ public class AgendamentoController : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetId(int id)
     {
-        var agendamento = _context.Agendamentos.Include(x => x.Cliente).Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
+        var agendamento = await _serviceAgendamento.GetById(id);
         return Ok(_mapper.Map<AgendamentoResponse>(agendamento));
+        //var agendamento = _context.Agendamentos.Include(x => x.Cliente).Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
+        //return Ok(_mapper.Map<AgendamentoResponse>(agendamento));
     }
 
 
@@ -53,27 +53,27 @@ public class AgendamentoController : ControllerBase
         if (ModelState.IsValid)
         {
             var agendamento = _mapper.Map<Agendamento>(agendamentoRequest);
-            var servico =  _context.Servicos.FirstOrDefault(x => x.Id == agendamentoRequest.ServicoId);
-            agendamento.Servicos = new List<Servico> { servico };
+            //var servico =  _context.Servicos.FirstOrDefault(x => x.Id == agendamentoRequest.ServicoId);
+            //agendamento.Servicos = new List<Servico> { servico };
             
 
-            _context.Agendamentos.Add(agendamento);
-            await _context.SaveChangesAsync();
-            return Ok(agendamento);
+            await _serviceAgendamento.Add(agendamento);
+            return Ok("Agendamento realizado!");
         }
         return BadRequest();
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id,AgendamentoRequest agendamentoRequest)
+    public async Task<IActionResult> Update(Agendamento agendamento)
     {
         if (ModelState.IsValid)
         {
-            var agendamento = _context.Agendamentos.Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
-            var novoAgendamento = _mapper.Map(agendamentoRequest, agendamento);
-            var servico = _context.Servicos.FirstOrDefault(x => x.Id == agendamentoRequest.ServicoId);
-            agendamento.Servicos = new List<Servico> { servico };
-            await _context.SaveChangesAsync();
+            //var agendamento = _context.Agendamentos.Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
+            //var novoAgendamento = _mapper.Map(agendamentoRequest, agendamento);
+            //var servico = _context.Servicos.FirstOrDefault(x => x.Id == agendamentoRequest.ServicoId);
+            //agendamento.Servicos = new List<Servico> { servico };
+            //await _context.SaveChangesAsync();
+           // await _serviceAgendamento.Update(agendamento);
             return Ok("Agendamento atualizado");
         }
 
@@ -85,10 +85,11 @@ public class AgendamentoController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var agendamento = _context.Agendamentos.Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
-        if (agendamento == null) {  return BadRequest(); }
-        _context.Agendamentos.Remove(agendamento);
-        await _context.SaveChangesAsync();
+        //var agendamento = _context.Agendamentos.Include(x => x.Servicos).FirstOrDefault(x => x.Id == id);
+        //if (agendamento == null) {  return BadRequest(); }
+        //_context.Agendamentos.Remove(agendamento);
+        //await _context.SaveChangesAsync();
+        //await _serviceAgendamento.Delete(id);
         return Ok("Deletado com sucesso!");
     } 
 

@@ -3,10 +3,14 @@ using AutoMapper;
 using Dominio.Dtos.Agendamento;
 using Dominio.Dtos.Cliente;
 using Dominio.Dtos.Servico;
+using Dominio.Interfaces.Generic;
+using Dominio.Interfaces.IService;
 using Entidades.Models;
 using Identity;
 using Identity.Model;
 using Infraestrutura.Configuration;
+using Infraestrutura.Repository.Generic;
+using Infraestrutura.Repository.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -68,8 +72,12 @@ namespace WebApi_Barbearia
             builder.Services.AddIdentity<Usuario, IdentityRole>()
                 .AddEntityFrameworkStores<ContextBaseIdentity>().AddDefaultTokenProviders();
 
+            // Injeção de dependencia
             builder.Services.AddScoped<TokenService>();
             builder.Services.AddScoped<UsuarioService>();
+            builder.Services.AddScoped(typeof(IGeneric<>), typeof(RepositoryBase<>));//Aqui faço a injeção de classes genéricas
+            builder.Services.AddScoped<IServiceCliente, ClienteRepository>();
+            builder.Services.AddScoped<IServiceAgendamento, AgendamentoRepository>();
             
 
             //TokenJwt
@@ -95,7 +103,7 @@ namespace WebApi_Barbearia
                 cfg.CreateMap<ServicoResponse, Servico>().ReverseMap();
                 cfg.CreateMap<AgendamentoRequest, Agendamento>().ForMember(x => x.Servicos, opt => opt.MapFrom(x => x.ServicoId));
                 cfg.CreateMap<Agendamento, AgendamentoResponse>().ForMember(x => x.Cliente, opt => opt.MapFrom(x => x.Cliente.Nome))
-                                                                 .ForMember(x => x.Servicos , opt => opt.MapFrom(x => x.Servicos));
+                                                                 .ForMember(x => x.Servicos, opt => opt.MapFrom(x => x.Servicos));
 
 
             });

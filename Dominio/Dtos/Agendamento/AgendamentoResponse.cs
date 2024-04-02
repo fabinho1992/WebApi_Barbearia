@@ -15,6 +15,6 @@ namespace Dominio.Dtos.Agendamento
         public string Observacao { get; set; }
         public int Status { get; set; }
         public string Cliente { get; set; }
-        public List<ServicoResponse> Servicos { get; set; }
+        public ICollection<ServicoResponse> Servicos { get; set; }
     }
 }

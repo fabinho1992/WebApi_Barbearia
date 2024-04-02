@@ -10,3 +10,7 @@ C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7
 C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.pdb
 C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\bin\Debug\net7.0\Entidades.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\bin\Debug\net7.0\Entidades.pdb
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Dominio\obj\Debug\net7.0\Dominio.csproj.CopyComplete

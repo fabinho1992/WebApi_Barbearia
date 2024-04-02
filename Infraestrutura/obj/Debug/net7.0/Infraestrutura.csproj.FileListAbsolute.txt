@@ -16,3 +16,5 @@ C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Infraestrutura\obj\Deb
 C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Infraestrutura\obj\Debug\net7.0\Infraestrutura.pdb
 C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Infraestrutura\obj\Debug\net7.0\Infraestrutura.genruntimeconfig.cache
 C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Infraestrutura\obj\Debug\net7.0\ref\Infraestrutura.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Infraestrutura\bin\Debug\net7.0\Dominio.dll
+C:\AulasAluraBackEnd\CursoUdemyBarbearia\WebApi_Barbearia\Infraestrutura\bin\Debug\net7.0\Dominio.pdb

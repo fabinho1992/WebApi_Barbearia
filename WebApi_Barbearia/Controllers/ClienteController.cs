@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Dominio.Dtos.Cliente;
+using Dominio.Interfaces.IService;
 using Entidades.Models;
 using Infraestrutura.Configuration;
 using Microsoft.AspNetCore.Authorization;
@@ -14,20 +15,21 @@ namespace WebApi_Barbearia.Controllers;
 [Authorize]
 public class ClienteController : ControllerBase
 {
-    private readonly ContextBase _context;
+    private readonly IServiceCliente _serviceCliente;
     private readonly IMapper _mapper;
 
-    public ClienteController(ContextBase context, IMapper mapper)
+    public ClienteController( IMapper mapper, IServiceCliente serviceCliente)
     {
-        _context = context;
         _mapper = mapper;
+        _serviceCliente = serviceCliente;
     }
 
     [HttpGet]
     public async Task<IActionResult> Get()
     {
-        var lista = await _context.Clientes.ToListAsync();
-        return Ok(lista);
+        var lista = await _serviceCliente.GetAll();
+        var listaView = _mapper.Map<List<ClienteResponse>>(lista);
+        return Ok(listaView);
     }
 
     [HttpPost]
@@ -36,8 +38,7 @@ public class ClienteController : ControllerBase
         if (ModelState.IsValid)//para saber se as DataAnnotations foram cumpridas!
         {
             var cliente = _mapper.Map<Cliente>(clienteRequest);
-            _context.Clientes.Add(cliente);
-            await _context.SaveChangesAsync();
+            await _serviceCliente.Add(cliente);
             return Ok(cliente);
         }
         return BadRequest();
@@ -48,20 +49,20 @@ public class ClienteController : ControllerBase
     public async Task<IActionResult> GetById(int id)
     {
 
-        var usuario =  _mapper.Map<ClienteResponse>(_context.Clientes.Find(id));
-        return Ok( usuario);
+        var usuario = await _serviceCliente.GetById(id);
+        var usuarioView = _mapper.Map<ClienteResponse>(usuario);
+        return Ok( usuarioView);
     }
 
     [HttpPut]
-    public async Task<IActionResult> Update(int id, ClienteRequest clienteRequest)
+    public async Task<IActionResult> Update( Cliente cliente)
     {
 
         if (ModelState.IsValid)
         {
-            var usuario = _context.Clientes.FirstOrDefault(c => c.Id == id);
-            var usuarioUpdate = _mapper.Map(clienteRequest, usuario);
-            await _context.SaveChangesAsync();
-            return Ok(usuarioUpdate);
+            
+            await _serviceCliente.Update(cliente);
+            return Ok(cliente);
         }
         return BadRequest();
         
@@ -70,9 +71,8 @@ public class ClienteController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var usuario = await _context.Clientes.FindAsync(id);
-        _context.Clientes.Remove(usuario);
-        await _context.SaveChangesAsync();
+        
+        await _serviceCliente.Delete(id);
         return Ok("Usuario removido!");
     }
 

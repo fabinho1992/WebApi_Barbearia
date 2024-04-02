@@ -22,6 +22,6 @@ public class Agendamento
     public int ClienteId { get; set; }
     [ForeignKey("ClienteId")]
     public Cliente Cliente { get; set; }
-    public virtual List<Servico> Servicos { get; set; }
+    public virtual ICollection<Servico> Servicos { get; set; }
 
 }
